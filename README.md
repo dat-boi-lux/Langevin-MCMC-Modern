@@ -1,6 +1,6 @@
 # Langevin-MCMC
 
-**This fork of https://github.com/luanfujun/Langevin-MCMC includes additional tweaks to enable a more seamless build experience.**
+**This fork of https://github.com/luanfujun/Langevin-MCMC includes additional tweaks to enable a more seamless build experience (scroll to the bottom of the readme for detailed build instructions.)**
 
 This is the code repository for paper "[Langevin Monte Carlo Rendering with Gradient-based Adaptation](https://research.cs.cornell.edu/langevin-mcmc/data/paper.pdf)" by Fujun Luan, Shuang Zhao, Kavita Bala, and Ioannis Gkioulekas. Check out the [project page](https://research.cs.cornell.edu/langevin-mcmc/) for more information. 
  
@@ -28,7 +28,7 @@ The code has been tested on a 32-core machine with Ubuntu 18.04 and gcc 9.2.1. I
 
 # Build Instructions:
 
-This code uses the **Tup** build system. Download and install tup:
+This code uses the **Tup** build system. Download and install tup:\
 ```sudo apt-add-repository 'deb http://ppa.launchpad.net/anatol/tup/ubuntu precise main'```
 ```sudo apt-get update```
 ```sudo apt-get install tup```
