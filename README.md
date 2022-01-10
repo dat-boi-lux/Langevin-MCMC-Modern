@@ -1,6 +1,6 @@
 # Langevin-MCMC
 
-This fork of https://github.com/luanfujun/Langevin-MCMC includes additional tweaks to enable a more seamless build experience.
+**This fork of https://github.com/luanfujun/Langevin-MCMC includes additional tweaks to enable a more seamless build experience.**
 
 This is the code repository for paper "[Langevin Monte Carlo Rendering with Gradient-based Adaptation](https://research.cs.cornell.edu/langevin-mcmc/data/paper.pdf)" by Fujun Luan, Shuang Zhao, Kavita Bala, and Ioannis Gkioulekas. Check out the [project page](https://research.cs.cornell.edu/langevin-mcmc/) for more information. 
  
@@ -9,9 +9,9 @@ This is the code repository for paper "[Langevin Monte Carlo Rendering with Grad
 ## H2MC (45.38 seconds):
 ![H2MC](scenes/torus/h2mc_timeuse_45.381592s.png)
 
-We implement our proposed LMC algorithms within the open-source reference implementation of H2MC by Tzu-Mao Li. Please refer to the dpt renderer page for basic installation and usage: https://github.com/BachiLi/dpt.  
+This code implements proposed LMC algorithms within the open-source reference implementation of H2MC by Tzu-Mao Li. https://github.com/BachiLi/dpt.  
 
-If you use our code, please cite the paper:
+If you use this code, please cite the paper:
 ```bibtex
 @article{luan2020langevin,
   title = {Langevin Monte Carlo Rendering with Gradient-based Adaptation},
@@ -24,6 +24,6 @@ If you use our code, please cite the paper:
 }
 ```
 
-The code has been tested on a 32-core machine with Ubuntu 18.04 and gcc 9.2.1. I have not tested it on OSX or Windows system yet.
+The code has been tested on a 32-core machine with Ubuntu 18.04 and gcc 9.2.1. It has not been tested on OSX or Windows yet.
 
-Please feel free to contact me (fujun @ cs.cornell.edu) if there are any issues/comments/questions.
+Please feel free to contact (fujun @ cs.cornell.edu) if there are any issues/comments/questions.
