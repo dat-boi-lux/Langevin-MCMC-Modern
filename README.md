@@ -1,4 +1,7 @@
 # Langevin-MCMC
+
+This fork of https://github.com/luanfujun/Langevin-MCMC includes additional tweaks to enable a more seamless build experience.
+
 This is the code repository for paper "[Langevin Monte Carlo Rendering with Gradient-based Adaptation](https://research.cs.cornell.edu/langevin-mcmc/data/paper.pdf)" by Fujun Luan, Shuang Zhao, Kavita Bala, and Ioannis Gkioulekas. Check out the [project page](https://research.cs.cornell.edu/langevin-mcmc/) for more information. 
  
 ## LMC (44.69 seconds):
