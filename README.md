@@ -26,4 +26,11 @@ If you use this code, please cite the paper:
 
 The code has been tested on a 32-core machine with Ubuntu 18.04 and gcc 9.2.1. It has not been tested on OSX or Windows yet.
 
+# Build Instructions:
+
+This code uses the **Tup** build system. Download and install tup:
+```sudo apt-add-repository 'deb http://ppa.launchpad.net/anatol/tup/ubuntu precise main'```
+```sudo apt-get update```
+```sudo apt-get install tup```
+
 Please feel free to contact (fujun @ cs.cornell.edu) if there are any issues/comments/questions.
