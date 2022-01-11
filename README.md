@@ -36,7 +36,7 @@ This code uses the **Tup** build system. Download and install *Tup*:\
 ```sudo apt-get install tup```
 
 Next install all the required dependencies:\
-```sudo apt install libeigen3-dev openimageio-tools libopenimageio-dev libembree-dev zlib1g zlib1g-dev```
+```sudo apt install libeigen3-dev openimageio-tools libopenimageio-dev libembree-dev zlib1g zlib1g-dev libpcre3-dev```
 
 Next download the Intel® Implicit SPMD Program Compiler from: https://ispc.github.io/downloads.html \
 Extract this file *somewhere*, then locate the **ispc** executable within: *ispc-vX.XX.X-linux/bin* 
