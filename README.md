@@ -28,6 +28,8 @@ The code has been tested on a 32-core machine with Ubuntu 18.04 and gcc 9.2.1. I
 
 # Build Instructions (Ubuntu 20.04):
 
+These instructions assume you have basic knowledge of how compiling on Linux works.
+
 This code uses the **Tup** build system. Download and install *Tup*:\
 ```sudo apt-add-repository 'deb http://ppa.launchpad.net/anatol/tup/ubuntu precise main'```\
 ```sudo apt-get update```\
