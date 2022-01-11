@@ -41,7 +41,7 @@ Next install all the required dependencies:\
 Next download the Intel® Implicit SPMD Program Compiler from: https://ispc.github.io/downloads.html \
 Extract this file *somewhere*, then locate the **ispc** executable within: *ispc-vX.XX.X-linux/bin* 
 
-Create a symbolic link to this executable within *usr/bin/* with this command: \
+Create a symbolic link to this executable within */usr/bin/* with this command: \
 ```sudo ln -s '/the/directory/to/ispc-vX.XX.X-linux/bin/ispc' '/usr/bin/'```
 
 Next, clone this repository with this command:\
