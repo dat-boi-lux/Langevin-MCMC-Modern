@@ -26,11 +26,32 @@ If you use this code, please cite the paper:
 
 The code has been tested on a 32-core machine with Ubuntu 18.04 and gcc 9.2.1. It has not been tested on OSX or Windows yet.
 
-# Build Instructions:
+# Build Instructions (Ubuntu 20.04):
 
-This code uses the **Tup** build system. Download and install tup:\
-```sudo apt-add-repository 'deb http://ppa.launchpad.net/anatol/tup/ubuntu precise main'```
-```sudo apt-get update```
+This code uses the **Tup** build system. Download and install *Tup*:\
+```sudo apt-add-repository 'deb http://ppa.launchpad.net/anatol/tup/ubuntu precise main'```\
+```sudo apt-get update```\
 ```sudo apt-get install tup```
+
+Next install all the required dependencies:\
+```sudo apt install libeigen3-dev openimageio-tools libembree-dev zlib1g zlib1g-dev```
+
+Next download the Intel® Implicit SPMD Program Compiler from: https://ispc.github.io/downloads.html \
+Extract this file *somewhere*, then locate the **ispc** executable within: *ispc-vX.XX.X-linux/bin* 
+
+Create a symbolic link to this executable within usr/bin with this command: \
+```sudo ln -s '/the/directory/to/ispc-vX.XX.X-linux/bin/ispc' '/usr/bin/'```
+
+Next, clone this repository with this command:\
+```git clone https://github.com/dat-boi-lux/Langevin-MCMC-Modern.git```
+
+Once it has successfully cloned: navigate to the */Langevin-MCMC-Modern/* directory (usually within your */home/* folder) and run these commands within that directory:\
+```tup init```\
+```tup```
+
+After a while, the code should have compiled.\
+the compiler itself **dpt** is located at: */Langevin-MCMC-Modern/src/bin/dpt*
+
+There are test scenes within */Langevin-MCMC-Modern/scenes/*.
 
 Please feel free to contact (fujun @ cs.cornell.edu) if there are any issues/comments/questions.
